@@ -9,7 +9,7 @@ from fastapi import FastAPI, Request, Response, Query
 from fastapi.responses import JSONResponse, PlainTextResponse
 from prometheus_client import Counter, generate_latest, CONTENT_TYPE_LATEST
 
-EMAIL = "YOUR_LOGGED_IN_EMAIL@example.com"
+EMAIL = "24f2006704@ds.study.iitm.ac.in"
 
 app = FastAPI()
 start_time = time.monotonic()
